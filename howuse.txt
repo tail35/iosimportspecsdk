@@ -1,0 +1,8 @@
+1.wmiossdk
+git tag 1.0.1
+git push origin 1.0.1
+2.spec
+add 1.0.1 spec
+3.import test
+pod install --repo-update
+pod install
