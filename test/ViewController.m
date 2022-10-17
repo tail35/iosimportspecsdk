@@ -17,8 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString* ver=[ WMPlayerView getVersion];
     NSString* log=[ WMPlayerView getBuildCode];
-    NSLog(@"%@",log);
+    NSLog(@"myver:ver:%@ code:%@",ver,log);
 }
 
 
